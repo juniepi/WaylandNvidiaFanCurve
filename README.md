@@ -12,7 +12,7 @@ Now with that being said this project technically can work with dual GPU's But i
 ## 🌱 Getting Started
 **``📦 /Packages/Guide/ 📝``**
 
-www.youtube.com/watch?v=QW2XGMAu6VE) <- video on how to install nvidia drivers with one script! He covers in this video a script made by TkG that can be found [here](https://github.com/Frogging-Family/nvidia-all) which should have you covered!
+Firstly Getting started make sure you have your nvidia driver installed! If you do not have your nvidia driver installed i recommend watching [A1RM4X's](https://www.youtube.com/watch?v=QW2XGMAu6VE) <- video on how to install nvidia drivers with one script! He covers in this video a script made by TkG that can be found [here](https://github.com/Frogging-Family/nvidia-all) which should have you covered!
 
 Now that you have your nvidia driver installed with all the required packages that comes with it you will also need bash which more likely than not you already have installed but in case you dont the command to install bash is: 
 
