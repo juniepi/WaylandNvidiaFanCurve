@@ -182,5 +182,8 @@ $ /path/to/nvidiacurve.sh
 ```
 $ ./nvidiacurve.sh
 ```
-you should see terminal pop up! displaying your current Tempature and Fan speeds! This means the Script worked! If it didnt then something went wrong in the install process! And for safety percausions i would reccommend restarting your pc!
+You should see the terminal displaying your current Tempature and Fan speeds! This means the Script worked! 
+To turn off the script at any time press CTRL + C in the terminal it was launched in! Note that your fan speed will stay to whatever it was previously set as by the nvidiacurve.sh so its not reccommended to stop the script!
+
+If it didnt show your temp or gave you an error message, then something went wrong in the install process! And for safety percausions i would reccommend restarting your pc!
 So try again! or feel free to go to [Wotikama](https://github.com/wotikama/nvidiafan/tree/main) and see if their project works for you! Have fun controlling your fan curves!
