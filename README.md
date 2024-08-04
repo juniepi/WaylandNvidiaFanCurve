@@ -49,7 +49,7 @@ Now the program has write permission! Now we can get to configuring your file!
 ## 📝 Configuration
 **`` 📁 /Config/Guide/ 📝``**
 
-## BEFORE WE START
+## 🕑 BEFORE WE START
 
 We need to check and see if your fans are correctly labled on your system as they are in the script along with your gpu!
 To do this we need to run two commands!
@@ -106,7 +106,7 @@ You would go into the script and change every line that has fan-0 and fan-1 to h
 ```
 It sounds a lot more complicated in directions than it actually is ^^ that should cover every issue you may run into with your labeling! Sorry for the confusing directions!
 
-## After checking your fan labels & GPU label
+## 🌊 After checking your fan labels & GPU label
 
 Now we have to configure your file! I use neovim you can follow along with your text editor as well! 
 ## Example
@@ -145,7 +145,7 @@ to be more clear this is another example of where to change the number in which 
 
 - sudo -E nvidia-settings -a "[gpu:0]/GPUFanControlState=1" -a "[fan-0]/GPUTargetFanSpeed=**YOUR NUMBER HERE**" -a "[fan-1]/GPUTargetFanSpeed=**YOUR NUMBER HERE**"
 
-## Setting Up Sleep Timer!
+## 💤 Setting Up Sleep Timer!
 The last thing left to do in the config is to setup your sleep timer! This means how long your computer will scan for updates on temperatures! for gaming i recommend you change this sleep to 15! to do this you change the like "sleep #" which is the second to last line in your script it looks something like this
 ```
 sleep 15
@@ -154,7 +154,7 @@ for productivity i would reccommend you setting it to like 30!
 ```
 sleep 30
 ```
-## RECAP FOR THE CONFUSING INSTRUCTIONS!
+## 💫 RECAP FOR THE CONFUSING INSTRUCTIONS!
 Lets Recap You will change the temp threshhold by changing "temperature >= (**insert number here**) && temperature <= (**insert number here**) * this will determine the ranges in which will guide the speed of your fans!
 
 Now lets recap what you will change to change your fan speeds! you will change 
@@ -174,7 +174,7 @@ but we have some more information to cover like how to turn it on and off!
 ## WARNING WHEN RUNNING!
 This Script stays on while you're on your pc as a terminal! SO AFTER TURNING ON THIS SCRIPT DO NOT CLOSE THE TERMINAL ITS RUNNING IN, NOT ONLY IS IT GIVING YOU INFORMATION LIKE TEMPs AND FAN SPEEDs ITS ALSO ACTUALLY CHANGING YOUR FAN SPEEDS! SO TURNING THIS SCRIPT OFF OR CLOSING THIS SCRIPTS TERMINAL IT WILL JUST KEEP YOUR GPU AT WHATEVER FAN SPEED THE SCRIPT CHANGED IT TO LAST, SO FOR EXAMPLE CLOSING OR STOPPING THE SCRIPT AT 47 SPEED BY EITHER TURNING IT OFF OR CLOSING THE TERMINAL ITS RUNNING IN, THE FAN SPEEDS OF YOUR GPU WILL BE AT 47 UNLESS YOUR EITHER RESTART YOUR PC OR RESTART THE SCRIPT BY RUNNING IT AGAIN! THIS IS A WARNING!
 
-## Turning Off and On The Script
+## 🌙 Turning Off and On The Script
 To start the script you have to execute it you do this by
 ```
 $ /path/to/nvidiacurve.sh
