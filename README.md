@@ -49,7 +49,7 @@ Now the program has write permission! Now we can get to configuring your file!
 ## 📝 Configuration
 **`` 📁 /Config/Guide/ 📝``**
 
-## 🕑 BEFORE WE START
+##  BEFORE WE START
 
 We need to check and see if your fans are correctly labled on your system as they are in the script along with your gpu!
 To do this we need to run two commands!
